@@ -7,8 +7,8 @@ import logo from  "../../images/logo.png"
 const Header = () => {
   return (
 
-    <Container>
-          <Image src={logo} rounded />
+    <Container className='d-flex justify-content-center align-items-center min-vh-50 flex-column text-center'> 
+          <Image src={logo} rounded /> <br />
           <h1 className='my-2, text-uppercase title' >Football Legends</h1>
           
         
